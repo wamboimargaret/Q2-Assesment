@@ -107,7 +107,7 @@ class Prey extends Species{
     }
 
     movement(){
-        console.log("Zeb")
+        console.log("Zebras move in ${migrationPattern} and they have ${this,lifespan}")
     }
 }
  class Predator extends Species{
@@ -116,4 +116,6 @@ class Prey extends Species{
         this.attackStyle = attackStyle
     }
 
+
+    
  }
